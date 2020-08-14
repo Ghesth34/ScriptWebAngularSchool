@@ -1,8 +1,29 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { FormUsuarioComponent} from './pages/form-usuario/form-usuario.component';
+import {PageHomeComponent} from './pages/page-home/page-home.component';
 
+const routes: Routes = [
+ {
+  path:"", redirectTo:"/home" ,pathMatch:"full"
 
-const routes: Routes = [];
+ },
+  {
+    path:"home",
+    component: PageHomeComponent
+
+  },
+  {
+    path:"addUser",
+    component: FormUsuarioComponent
+
+  },
+  {
+    path:"formUser/:key",
+    component: FormUsuarioComponent
+
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

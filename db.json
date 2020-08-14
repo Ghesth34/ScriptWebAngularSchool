@@ -1,0 +1,32 @@
+{
+  "usuario": [
+    {
+      "ativo": true,
+      "nome": "Fabiano Moreira",
+      "email": "carlos@gmail.com",
+      "pws": "123",
+      "id": 1
+    },
+    {
+      "ativo": true,
+      "nome": "Pao Queimado",
+      "email": "pao@gmail.com",
+      "pws": "pao",
+      "id": 2
+    },
+    {
+      "ativo": true,
+      "nome": "Carlitoz Nunes Beto",
+      "email": "bbb@email.com",
+      "pws": "123",
+      "id": 3
+    },
+    {
+      "ativo": true,
+      "nome": "Queijo Redondo Silva",
+      "email": "qqq@gmail.com",
+      "pws": "jjj",
+      "id": 4
+    }
+  ]
+}
